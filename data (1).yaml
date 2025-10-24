@@ -1,0 +1,6 @@
+train: "/home/hutlab_int/Akhil_yolo/Research/yolov8/BraTS21_preprocessed2/train"
+val: "/home/hutlab_int/Akhil_yolo/Research/yolov8/BraTS21_preprocessed2/val"
+nc: 1
+names:
+- tumor
+
