@@ -42,7 +42,7 @@ def create_python_env_and_run_script():
     subprocess.run(install_polars_cmd, shell=True)
 
     # Run training
-    run_script_cmd = f'{envpath}/bin/python3.9 {home_directory}/Akhil_yolo/Research/yolov8/trains.py'
+    run_script_cmd = f'{envpath}/bin/python3.9 {home_directory}/Akhil_yolo/Research/yolov8/trainn.py'
     subprocess.run(run_script_cmd, shell=True)
 
 
