@@ -11,7 +11,7 @@ model = YOLO('/home/hutlab_int/Akhil_yolo/Research/yolov8/Yolov8-Small-Object-De
 #    This starts training from a knowledgeable base, not from scratch.
 #    'yolov8s.pt' is a good starting point for a small model.
 print("Loading pre-trained weights from yolov8s.pt...")
-model=YOLO('yolov8s')
+model=YOLO('yolov8n')
 
 # --- MODIFICATIONS END ---
 
@@ -23,5 +23,6 @@ results = model.train(data="/home/hutlab_int/Akhil_yolo/Research/yolov8/data.yam
                       imgsz=640,
                       batch=32,
                       device=0) # Using GPU 0
+
 
 print("Training finished successfully.")
